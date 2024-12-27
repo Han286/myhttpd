@@ -1,7 +1,7 @@
 all: httpd client
 
-httpd: server.cpp
-	g++ -g -W -Wall -pthread -o $@ $<
+httpd: server.c
+	gcc -g -W -Wall -pthread -o $@ $<
 
 client: client.c
 	gcc -W -Wall -o $@ $<

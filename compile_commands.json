@@ -1,0 +1,30 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-W",
+            "-Wall",
+            "-o",
+            "client",
+            "client.c"
+        ],
+        "directory": "/home/di/workplace/my_httpd",
+        "file": "client.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-g",
+            "-W",
+            "-Wall",
+            "-pthread",
+            "-o",
+            "httpd",
+            "server.c"
+        ],
+        "directory": "/home/di/workplace/my_httpd",
+        "file": "server.c"
+    }
+]
